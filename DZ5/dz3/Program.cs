@@ -30,7 +30,7 @@ double DiffMaxMin(double[] arr)
     double Diff=0;
     double max=arr[0];
     double min=arr[0];
-    for (int i = 0; i < arr.Length-1; i++)
+    for (int i = 0; i < arr.Length; i++)
     {   
         if (arr[i]<min)
         {

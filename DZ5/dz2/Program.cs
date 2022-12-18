@@ -30,7 +30,7 @@ int[] FillArrayWithRandomNumbers(int size, int leftRange, int rightRange)
 int SumOdd(int[] arr)
 {
     int result = 0;
-    for (int i = 1; i < arr.Length - 1; i += 2)
+    for (int i = 1; i < arr.Length; i += 2)
     {
         result += arr[i];
     }
